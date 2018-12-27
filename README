@@ -1,0 +1,10 @@
+# nix_utf8_decode
+decodes UTF-8 text into codepoints
+
+## usage
+`echo -n 'abc ¢ह€𐍈' | utf8_decode`
+
+## building and installing
+  - build: `make`
+  - install: `sudo cp utf8_decode /usr/local/bin/`
+
